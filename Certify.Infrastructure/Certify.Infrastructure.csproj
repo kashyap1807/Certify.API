@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Certify.Application\Certify.Application.csproj" />
+    <ProjectReference Include="..\Certify.Domain\Certify.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
